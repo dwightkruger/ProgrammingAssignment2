@@ -30,7 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
     }
     
     # Specify the get() function for cacheMatrix
-    get <- function() x
+    get <- function() x 
     
     # Specify the setInverse function
     setInverse <- function(inverse) invertedMatrix <<- inverse
